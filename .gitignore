@@ -26,3 +26,6 @@ yarn-error.log*
 /src/js/uce-loader/
 /src/js/uce-template/
 /src/js/js-yaml/
+
+# (Also only used for testing) Generate this with the npm scripts.
+/src/assets/stylesheet.css
