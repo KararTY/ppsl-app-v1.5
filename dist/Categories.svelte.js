@@ -123,7 +123,7 @@ function create_each_block(ctx) {
 			t2 = space();
 			attr(strong, "class", "text-center");
 			attr(a, "href", "#");
-			attr(a, "class", "p-4 bg-white flex flex-col items-center justify-center w-32 max-w-32 hover:bg-green-400 hover:text-white");
+			attr(a, "class", "p-4 bg-white flex flex-col items-center justify-center w-32 max-w-32 hover:bg-brand duration-300 hover:text-white duration-300");
 		},
 		m(target, anchor) {
 			insert(target, a, anchor);

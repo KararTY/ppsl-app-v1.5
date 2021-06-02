@@ -165,7 +165,7 @@ function create_fragment(ctx) {
 			span2.textContent = "Settings";
 			attr(div0, "class", "-m-4");
 			attr(button, "type", "button");
-			attr(button, "class", "hamburger svelte-1ix2b2x");
+			attr(button, "class", "hamburger svelte-1xle9fr");
 			attr(div1, "class", "md:hidden flex items-center justify-center");
 			attr(div2, "class", "flex items-center justify-between px-4 py-3 md:p-0");
 			attr(div3, "class", "absolute inset-y-0 right-0 p-2 flex items-center pointer-events-none");
@@ -173,15 +173,15 @@ function create_fragment(ctx) {
 			attr(input, "name", "search_wiki");
 			attr(input, "id", "search");
 			attr(input, "placeholder", "Type in your search...");
-			attr(input, "class", "svelte-1ix2b2x");
+			attr(input, "class", "svelte-1xle9fr");
 			attr(div4, "class", "relative flex-grow 2xl:mx-48 md:mx-20 md:rounded-md shadow-sm");
-			attr(span1, "class", "svelte-1ix2b2x");
+			attr(span1, "class", "svelte-1xle9fr");
 			attr(a0, "href", "#");
-			attr(a0, "class", "navbar-burger-button svelte-1ix2b2x");
-			attr(span2, "class", "svelte-1ix2b2x");
+			attr(a0, "class", "navbar-burger-button svelte-1xle9fr");
+			attr(span2, "class", "svelte-1xle9fr");
 			attr(a1, "href", "#");
-			attr(a1, "class", "navbar-burger-button svelte-1ix2b2x");
-			attr(div5, "class", "left-menu hidden svelte-1ix2b2x");
+			attr(a1, "class", "navbar-burger-button svelte-1xle9fr");
+			attr(div5, "class", "left-menu hidden svelte-1xle9fr");
 			toggle_class(div5, "hidden", !/*menuIsOpen*/ ctx[0]);
 			attr(div6, "class", "md:container md:mx-auto md:flex md:justify-between md:items-center");
 			attr(nav, "class", "bg-white md:px-4 md:py-2 shadow");
@@ -290,11 +290,11 @@ function onKeyPress(e = new KeyboardEvent()) {
 }
 
 function onFocus() {
-	document.getElementById("search_svg").classList.add("text-green-400");
+	document.getElementById("search_svg").classList.add("text-brand");
 }
 
 function onFocusOut() {
-	document.getElementById("search_svg").classList.remove("text-green-400");
+	document.getElementById("search_svg").classList.remove("text-brand");
 }
 
 function instance($$self, $$props, $$invalidate) {
