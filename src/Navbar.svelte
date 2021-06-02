@@ -16,11 +16,11 @@
   }
 
   function onFocus () {
-    document.getElementById('search_svg').classList.add('text-green-400')
+    document.getElementById('search_svg').classList.add('text-brand')
   }
 
   function onFocusOut () {
-    document.getElementById('search_svg').classList.remove('text-green-400')
+    document.getElementById('search_svg').classList.remove('text-brand')
   }
 </script>
 
@@ -63,7 +63,7 @@
 
 <style lang="postcss">
   .navbar-burger-button {
-    @apply rounded bg-gray-200 p-2 m-2 flex items-center;
+    @apply rounded bg-btncolor p-2 m-2 flex items-center text-black hover:bg-brand duration-300 hover:text-white duration-300;
   }
   .navbar-burger-button:not(:last-child) {
     @apply md:mr-2;
@@ -75,9 +75,9 @@
     @apply p-2 h-full md:flex md:items-center md:p-0 md:-m-2;
   }
   .hamburger {
-    @apply text-gray-400 hover:text-black focus:text-black focus:outline-none;
+    @apply text-black hover:text-brand duration-300 focus:text-brand focus:outline-none;
   }
   #search {
-    @apply flex-grow w-full pr-12 block md:rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0;
+    @apply flex-grow w-full pr-12 block md:rounded-md bg-gray-100 border-transparent focus:border-brand focus:bg-white focus:ring-0 duration-100;
   }
 </style>
