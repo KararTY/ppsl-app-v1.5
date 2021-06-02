@@ -8,6 +8,10 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        brand: '#64B549',
+        btncolor: '#F5F5F5'
+      },
       fontFamily: {
         sans: ['Inter']
       }
