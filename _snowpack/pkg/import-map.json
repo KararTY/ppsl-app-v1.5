@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "luxon": "./luxon.js",
+    "svelte/internal": "./svelte/internal.js"
+  }
+}

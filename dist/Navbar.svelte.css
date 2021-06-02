@@ -1,0 +1,17 @@
+.navbar-burger-button.svelte-1ix2b2x.svelte-1ix2b2x{margin:0.5rem;display:flex;align-items:center;border-radius:0.25rem;--tw-bg-opacity:1;background-color:rgba(229, 231, 235, var(--tw-bg-opacity));padding:0.5rem
+}@media(min-width: 768px){.navbar-burger-button.svelte-1ix2b2x.svelte-1ix2b2x:not(:last-child){margin-right:0.5rem
+    }}.navbar-burger-button.svelte-1ix2b2x>span.svelte-1ix2b2x{padding-left:0.5rem;font-weight:700
+}@media(min-width: 768px){.navbar-burger-button.svelte-1ix2b2x>span.svelte-1ix2b2x{display:none
+    }}@media(min-width: 1536px){.navbar-burger-button.svelte-1ix2b2x>span.svelte-1ix2b2x{display:block
+    }}.left-menu.svelte-1ix2b2x.svelte-1ix2b2x{height:100%;padding:0.5rem
+}@media(min-width: 768px){.left-menu.svelte-1ix2b2x.svelte-1ix2b2x{margin:-0.5rem
+    }.left-menu.svelte-1ix2b2x.svelte-1ix2b2x{display:flex
+    }.left-menu.svelte-1ix2b2x.svelte-1ix2b2x{align-items:center
+    }.left-menu.svelte-1ix2b2x.svelte-1ix2b2x{padding:0px
+    }}.hamburger.svelte-1ix2b2x.svelte-1ix2b2x{--tw-text-opacity:1;color:rgba(156, 163, 175, var(--tw-text-opacity))
+}.hamburger.svelte-1ix2b2x.svelte-1ix2b2x:hover{--tw-text-opacity:1;color:rgba(0, 0, 0, var(--tw-text-opacity))
+}.hamburger.svelte-1ix2b2x.svelte-1ix2b2x:focus{--tw-text-opacity:1;color:rgba(0, 0, 0, var(--tw-text-opacity));outline:2px solid transparent;outline-offset:2px
+}#search.svelte-1ix2b2x.svelte-1ix2b2x{display:block;width:100%;flex-grow:1;border-color:transparent;--tw-bg-opacity:1;background-color:rgba(243, 244, 246, var(--tw-bg-opacity));padding-right:3rem
+}#search.svelte-1ix2b2x.svelte-1ix2b2x:focus{--tw-border-opacity:1;border-color:rgba(107, 114, 128, var(--tw-border-opacity));--tw-bg-opacity:1;background-color:rgba(255, 255, 255, var(--tw-bg-opacity));--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
+}@media(min-width: 768px){#search.svelte-1ix2b2x.svelte-1ix2b2x{border-radius:0.375rem
+    }}
