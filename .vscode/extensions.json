@@ -1,5 +1,9 @@
 {
   "recommendations": [
-    "standard.vscode-standard"
+    "standard.vscode-standard",
+    "mrmlnc.vscode-autoprefixer",
+    "csstools.postcss",
+    "svelte.svelte-vscode",
+    "bradlc.vscode-tailwindcss"
   ]
 }
